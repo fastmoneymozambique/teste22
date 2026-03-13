@@ -1,16 +1,32 @@
 {
-"name": "game-api",
-"version": "1.0.0",
-"description": "RAWG games proxy server",
-"main": "server.js",
-"type": "commonjs",
-"scripts": {
-"start": "node server.js",
-"dev": "node server.js"
-},
-"dependencies": {
-"cors": "^2.8.5",
-"express": "^4.19.2",
-"node-fetch": "^2.7.0"
-}
+  "name": "media-server",
+  "version": "1.0.0",
+  "description": "Servidor único para RAWG (jogos) e Watchmode (trailers de filmes/séries)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "backend",
+    "express",
+    "rawg",
+    "watchmode",
+    "trailers",
+    "games",
+    "movies"
+  ],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.12"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
 }
